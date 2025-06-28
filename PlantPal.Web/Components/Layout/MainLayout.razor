@@ -1,0 +1,53 @@
+@inherits LayoutView
+
+<div class="min-h-screen bg-gray-50">
+    <nav class="bg-plant-green-600 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="/" class="flex items-center space-x-2">
+                        <span class="text-2xl">🌱</span>
+                        <span class="text-white text-xl font-bold">PlantPal</span>
+                    </a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="/" class="text-white hover:text-plant-green-200 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                    <a href="/recommendations" class="text-white hover:text-plant-green-200 px-3 py-2 rounded-md text-sm font-medium">Recommendations</a>
+                    <a href="/plants" class="text-white hover:text-plant-green-200 px-3 py-2 rounded-md text-sm font-medium">Plants</a>
+                    <a href="/community" class="text-white hover:text-plant-green-200 px-3 py-2 rounded-md text-sm font-medium">Community</a>
+                    <a href="/dashboard" class="text-white hover:text-plant-green-200 px-3 py-2 rounded-md text-sm font-medium">Dashboard</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        @Body
+    </main>
+
+    <footer class="bg-plant-green-800 text-white mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">PlantPal</h3>
+                    <p class="text-plant-green-200">Your companion for sustainable, native gardening. Grow local, think global.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-plant-green-200">
+                        <li><a href="/recommendations" class="hover:text-white">Plant Recommendations</a></li>
+                        <li><a href="/plants" class="hover:text-white">Plant Database</a></li>
+                        <li><a href="/community" class="hover:text-white">Community</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">About</h3>
+                    <p class="text-plant-green-200">PlantPal helps you create sustainable gardens with native plants that support local ecosystems.</p>
+                </div>
+            </div>
+            <div class="border-t border-plant-green-700 mt-8 pt-8 text-center text-plant-green-200">
+                <p>&copy; 2024 PlantPal. Growing a greener future together.</p>
+            </div>
+        </div>
+    </footer>
+</div>

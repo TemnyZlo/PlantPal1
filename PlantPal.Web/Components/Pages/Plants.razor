@@ -1,0 +1,227 @@
+@page "/plants"
+@using PlantPal.Shared.Models
+@inject PlantPal.Web.Services.ApiService ApiService
+
+<PageTitle>Plant Database - PlantPal</PageTitle>
+
+<div class="container mx-auto px-4 py-8">
+    <div class="mb-8">
+        <h1 class="text-3xl font-bold text-plant-green-600 mb-4">Plant Database</h1>
+        <p class="text-gray-600 mb-6">Explore our comprehensive database of native and garden plants</p>
+        
+        <!-- Search Bar -->
+        <div class="max-w-md">
+            <div class="relative">
+                <input @bind="searchQuery" @onkeypress="@(async (e) => { if (e.Key == "Enter") await SearchPlants(); })"
+                       type="text" placeholder="Search plants..." 
+                       class="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-plant-green-500 focus:border-plant-green-500">
+                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                    <span class="text-gray-400">🔍</span>
+                </div>
+            </div>
+            <button @onclick="SearchPlants" class="mt-2 bg-plant-green-600 text-white px-4 py-2 rounded-lg hover:bg-plant-green-700 transition-colors">
+                Search
+            </button>
+        </div>
+    </div>
+
+    <!-- Filter Tabs -->
+    <div class="mb-6">
+        <div class="border-b border-gray-200">
+            <nav class="-mb-px flex space-x-8">
+                <button @onclick="() => SetFilter(PlantFilter.All)" 
+                        class="@GetTabClass(PlantFilter.All) py-2 px-1 border-b-2 font-medium text-sm">
+                    All Plants (@allPlants.Count)
+                </button>
+                <button @onclick="() => SetFilter(PlantFilter.Native)" 
+                        class="@GetTabClass(PlantFilter.Native) py-2 px-1 border-b-2 font-medium text-sm">
+                    Native Plants (@allPlants.Count(p => p.IsNative))
+                </button>
+                <button @onclick="() => SetFilter(PlantFilter.Herbs)" 
+                        class="@GetTabClass(PlantFilter.Herbs) py-2 px-1 border-b-2 font-medium text-sm">
+                    Herbs (@allPlants.Count(p => p.CommonName.Contains("Basil") || p.CommonName.Contains("Lavender")))
+                </button>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Plants Grid -->
+    @if (isLoading)
+    {
+        <div class="text-center py-12">
+            <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-plant-green-600 mx-auto mb-4"></div>
+            <p class="text-gray-600">Loading plants...</p>
+        </div>
+    }
+    else if (filteredPlants.Any())
+    {
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            @foreach (var plant in filteredPlants)
+            {
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
+                    <div class="relative">
+                        <img src="@(plant.ImageUrl ?? "/images/placeholder-plant.jpg")" 
+                             alt="@plant.CommonName" 
+                             class="w-full h-48 object-cover">
+                        @if (plant.IsNative)
+                        {
+                            <div class="absolute top-2 left-2 bg-plant-green-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                🌿 Native
+                            </div>
+                        }
+                    </div>
+                    
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-1">@plant.CommonName</h3>
+                        <p class="text-sm text-gray-600 mb-2 italic">@plant.ScientificName</p>
+                        
+                        <div class="flex flex-wrap gap-1 mb-3">
+                            @if (!string.IsNullOrEmpty(plant.WaterRequirements))
+                            {
+                                <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">💧 @plant.WaterRequirements</span>
+                            }
+                            @if (!string.IsNullOrEmpty(plant.SunRequirements))
+                            {
+                                <span class="bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded">☀️ @plant.SunRequirements</span>
+                            }
+                            @if (!string.IsNullOrEmpty(plant.BloomingSeason))
+                            {
+                                <span class="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">🌸 @plant.BloomingSeason</span>
+                            }
+                        </div>
+                        
+                        @if (!string.IsNullOrEmpty(plant.Description))
+                        {
+                            <p class="text-sm text-gray-700 mb-3 line-clamp-2">@plant.Description</p>
+                        }
+                        
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs text-gray-500">@plant.GrowthStage</span>
+                            <button class="bg-plant-green-600 text-white px-3 py-1 rounded text-sm hover:bg-plant-green-700 transition-colors">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="text-center py-12">
+            <div class="text-6xl mb-4">🌱</div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">No plants found</h3>
+            <p class="text-gray-600">
+                @if (!string.IsNullOrEmpty(searchQuery))
+                {
+                    <span>No plants match your search for "@searchQuery".</span>
+                }
+                else
+                {
+                    <span>No plants available in this category.</span>
+                }
+            </p>
+            @if (!string.IsNullOrEmpty(searchQuery))
+            {
+                <button @onclick="ClearSearch" class="mt-4 bg-plant-green-600 text-white px-4 py-2 rounded-lg hover:bg-plant-green-700 transition-colors">
+                    Clear Search
+                </button>
+            }
+        </div>
+    }
+</div>
+
+@code {
+    private List<Plant> allPlants = new();
+    private List<Plant> filteredPlants = new();
+    private string searchQuery = "";
+    private bool isLoading = true;
+    private PlantFilter currentFilter = PlantFilter.All;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadPlants();
+    }
+
+    private async Task LoadPlants()
+    {
+        try
+        {
+            isLoading = true;
+            allPlants = await ApiService.GetAllPlantsAsync();
+            ApplyFilter();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading plants: {ex.Message}");
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    private async Task SearchPlants()
+    {
+        if (string.IsNullOrWhiteSpace(searchQuery))
+        {
+            ApplyFilter();
+            return;
+        }
+
+        try
+        {
+            isLoading = true;
+            var searchResults = await ApiService.SearchPlantsAsync(searchQuery);
+            filteredPlants = searchResults;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error searching plants: {ex.Message}");
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    private void SetFilter(PlantFilter filter)
+    {
+        currentFilter = filter;
+        searchQuery = ""; // Clear search when changing filter
+        ApplyFilter();
+    }
+
+    private void ApplyFilter()
+    {
+        filteredPlants = currentFilter switch
+        {
+            PlantFilter.Native => allPlants.Where(p => p.IsNative).ToList(),
+            PlantFilter.Herbs => allPlants.Where(p => 
+                p.CommonName.Contains("Basil", StringComparison.OrdinalIgnoreCase) || 
+                p.CommonName.Contains("Lavender", StringComparison.OrdinalIgnoreCase) ||
+                p.CommonName.Contains("Herb", StringComparison.OrdinalIgnoreCase)).ToList(),
+            _ => allPlants
+        };
+    }
+
+    private void ClearSearch()
+    {
+        searchQuery = "";
+        ApplyFilter();
+    }
+
+    private string GetTabClass(PlantFilter filter)
+    {
+        return currentFilter == filter
+            ? "border-plant-green-500 text-plant-green-600"
+            : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300";
+    }
+
+    private enum PlantFilter
+    {
+        All,
+        Native,
+        Herbs
+    }
+}
