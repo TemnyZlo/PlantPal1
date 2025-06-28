@@ -4,7 +4,7 @@
   "description": "PlantPal Frontend",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "npx vite",
     "build": "vite build",
     "preview": "vite preview"
   },
