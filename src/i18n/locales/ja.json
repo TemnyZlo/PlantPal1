@@ -1,0 +1,432 @@
+{
+  "common": {
+    "loading": "読み込み中...",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "add": "追加",
+    "search": "検索",
+    "filter": "フィルター",
+    "close": "閉じる",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "yes": "はい",
+    "no": "いいえ",
+    "ok": "OK",
+    "error": "エラー",
+    "success": "成功",
+    "warning": "警告",
+    "info": "情報"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "dashboard": "ダッシュボード",
+    "plants": "植物",
+    "aiAssistant": "AIアシスタント",
+    "community": "コミュニティ",
+    "analytics": "分析",
+    "settings": "設定",
+    "signIn": "ログイン",
+    "signUp": "サインアップ",
+    "signOut": "ログアウト"
+  },
+  "home": {
+    "title": "AI駆動の植物インテリジェンス",
+    "subtitle": "コンピュータビジョン、予測分析、機械学習を組み合わせて究極のガーデニング体験を創造する革命的な植物ケアプラットフォーム。",
+    "experienceAI": "AIマジックを体験",
+    "tryScanner": "植物スキャナーを試す",
+    "welcomeBack": "おかえりなさい、{{name}}さん！",
+    "totalPlants": "AI監視植物",
+    "favorites": "お気に入り",
+    "features": {
+      "aiIntelligence": {
+        "title": "AI植物インテリジェンス",
+        "description": "高度な機械学習アルゴリズムがあなたの植物を分析し、パーソナライズされたケア推奨事項を提供します"
+      },
+      "computerVision": {
+        "title": "コンピュータビジョン分析",
+        "description": "最先端の画像認識技術を使用して植物を瞬時に識別し、健康問題を診断します"
+      },
+      "predictiveCare": {
+        "title": "予測ケアシステム",
+        "description": "スマートアルゴリズムが問題が発生する前に植物のニーズを予測し、最適な健康状態を確保します"
+      },
+      "automatedMonitoring": {
+        "title": "自動監視",
+        "description": "リアルタイムの健康監視と即座のアラート、自動化されたケア推奨事項"
+      }
+    },
+    "stats": {
+      "aiModels": "訓練されたAIモデル",
+      "plantsAnalyzed": "分析された植物",
+      "successRate": "成功率",
+      "happyGardeners": "幸せなガーデナー"
+    },
+    "capabilities": {
+      "title": "インテリジェント植物ケア",
+      "subtitle": "植物ケアのあらゆる側面を理解、予測、最適化する高度なAIシステムでガーデニングの未来を体験してください。",
+      "plantDiagnosis": {
+        "title": "植物健康診断",
+        "description": "写真をアップロードして、AI駆動の即座の健康分析と治療推奨事項を取得",
+        "demo": "カメラを試す"
+      },
+      "predictiveAlerts": {
+        "title": "予測ケアアラート",
+        "description": "AIが問題が発生する前に植物が水、肥料、または注意を必要とする時期を予測",
+        "demo": "予測を見る"
+      },
+      "gardenPlanning": {
+        "title": "スマートガーデンプランニング",
+        "description": "AIがあなたのスペース、気候、好みに基づいて最適なガーデンレイアウトを設計",
+        "demo": "ガーデンを計画"
+      }
+    },
+    "cta": {
+      "title": "ガーデニングの未来の準備はできていますか？",
+      "subtitle": "AI駆動の植物ケアの力をすでに体験している何千ものガーデナーに参加してください。",
+      "startGarden": "AIガーデンを始める",
+      "joinCommunity": "コミュニティに参加"
+    }
+  },
+  "dashboard": {
+    "title": "AIダッシュボード",
+    "welcome": "おかえりなさい、{{name}}さん！あなたのAIアシスタントがあなたのガーデンを監視していました。",
+    "aiActive": "AIアクティブ",
+    "signInRequired": "ダッシュボードを表示するにはログインしてください",
+    "signInSubtitle": "AI駆動の植物ケアジャーニーを追跡",
+    "stats": {
+      "totalPlants": "植物総数",
+      "healthyPlants": "健康な植物",
+      "needAttention": "注意が必要",
+      "favorites": "お気に入り",
+      "healthRate": "健康率",
+      "aiMonitoring": "AI監視",
+      "curatedCollection": "キュレーションコレクション",
+      "thisWeek": "今週"
+    },
+    "aiInsights": {
+      "title": "AIインサイト",
+      "realTime": "リアルタイム",
+      "viewAll": "すべてのAIインサイトを表示"
+    },
+    "careSchedule": {
+      "title": "AIケアスケジュール",
+      "autoOptimized": "自動最適化",
+      "viewFull": "完全なスケジュールを表示"
+    },
+    "growthAnalytics": {
+      "title": "AI成長分析",
+      "growthRate": "成長率",
+      "loading": "AI駆動の成長分析を読み込み中..."
+    }
+  },
+  "plants": {
+    "title": "植物データベース",
+    "subtitle": "AIがキュレーションした植物コレクションを探索",
+    "searchPlaceholder": "名前、特徴、またはケアニーズで植物を検索...",
+    "filters": "フィルター",
+    "advancedFilters": "高度なフィルター",
+    "careLevel": "ケアレベル",
+    "waterNeeds": "水の必要性",
+    "lightNeeds": "光の必要性",
+    "nativePlantsOnly": "在来植物のみ",
+    "reset": "リセット",
+    "applyFilters": "フィルターを適用",
+    "allLevels": "すべてのレベル",
+    "allWaterNeeds": "すべての水の必要性",
+    "allLightNeeds": "すべての光の必要性",
+    "easy": "簡単",
+    "intermediate": "中級",
+    "difficult": "困難",
+    "low": "低",
+    "moderate": "中程度",
+    "high": "高",
+    "lowLight": "低光",
+    "indirectLight": "間接光",
+    "brightLight": "明るい光",
+    "fullSun": "直射日光",
+    "native": "在来",
+    "aiScore": "AIスコア",
+    "aiRecommendation": "AI推奨",
+    "details": "詳細",
+    "addToGarden": "ガーデンに追加",
+    "noResults": "植物が見つかりません",
+    "noResultsMessage": "「{{query}}」の検索に一致する植物がありません。異なるキーワードを試すか、フィルターを調整してください。",
+    "startExploring": "植物の探索を開始",
+    "startExploringMessage": "検索バーまたはフィルターを使用して、あなたのニーズに合う植物を発見してください。",
+    "clearSearch": "検索をクリア",
+    "loadingPlants": "植物を読み込み中..."
+  },
+  "plantDetails": {
+    "backToPlants": "植物に戻る",
+    "addToGarden": "マイガーデンに追加",
+    "aiCareGuide": "AIケアガイド",
+    "growthPrediction": "成長予測",
+    "troubleshooting": "トラブルシューティング",
+    "about": "について",
+    "aiSchedule": {
+      "title": "AIケアスケジュール",
+      "description": "私たちのAIはこの植物種を分析し、あなたの環境と経験レベルに最適化されたパーソナライズされたケアスケジュールを作成しました。",
+      "watering": "水やり",
+      "fertilizing": "施肥",
+      "repotting": "植え替え",
+      "frequency": "頻度",
+      "next": "次回",
+      "addToCalendar": "マイケアカレンダーに追加"
+    },
+    "growthForecast": {
+      "title": "AI成長予測",
+      "description": "私たちの予測AIモデルは、種のデータ、あなたのケアパターン、環境条件に基づいて、あなたの植物が時間とともにどのように発達するかを予測します。",
+      "oneMonth": "1ヶ月予測",
+      "sixMonths": "6ヶ月予測",
+      "oneYear": "1年予測",
+      "aiInsight": "AIインサイト"
+    },
+    "troubleshootingGuide": {
+      "title": "AIトラブルシューティング",
+      "description": "私たちのAIはこの植物種の一般的な問題を特定し、科学的研究と専門知識に基づいた解決策を提供しました。",
+      "possibleCauses": "考えられる原因",
+      "solutions": "解決策",
+      "scanForIssues": "私の植物の問題をスキャン"
+    },
+    "plantInfo": {
+      "scientificName": "学名",
+      "growthRate": "成長率",
+      "soilType": "土壌タイプ",
+      "humidity": "湿度",
+      "propagation": "繁殖",
+      "toxicity": "毒性",
+      "native": "在来",
+      "careLevel": "ケアレベル"
+    }
+  },
+  "aiAssistant": {
+    "title": "AI植物インテリジェンス",
+    "subtitle": "あらゆる植物の問題を解決する高度な機械学習とコンピュータビジョン",
+    "whatCanIHelp": "何をお手伝いできますか？",
+    "suggestions": {
+      "identify": "この植物を識別してください",
+      "diagnose": "私の植物に何が起こっていますか？",
+      "schedule": "ケアスケジュールを作成",
+      "predict": "私の植物の成長を予測"
+    },
+    "aiName": "PlantPal AI",
+    "aiDescription": "高度な植物インテリジェンスシステム",
+    "active": "アクティブ",
+    "aiThinking": "AI思考中...",
+    "uploadImage": "分析用の植物画像をアップロード",
+    "voiceInput": "音声入力",
+    "askAnything": "あなたの植物について何でも聞いてください...",
+    "features": {
+      "computerVision": {
+        "title": "コンピュータビジョン",
+        "description": "即座の植物識別と健康分析のために写真をアップロード"
+      },
+      "predictiveIntelligence": {
+        "title": "予測インテリジェンス",
+        "description": "AIが問題が発生する前に植物のニーズを予測"
+      },
+      "smartAutomation": {
+        "title": "スマート自動化",
+        "description": "あなたの植物の変化するニーズに適応する自動化されたケアスケジュール"
+      }
+    }
+  },
+  "community": {
+    "title": "AIコミュニティ",
+    "subtitle": "植物愛好家とつながり、AI駆動のインサイトを共有",
+    "shareExperience": "あなたの経験を共有",
+    "trendingTopics": "トレンドトピック",
+    "topContributors": "トップ貢献者",
+    "aiCommunityInsights": "AIコミュニティインサイト",
+    "communityImpact": "コミュニティインパクト",
+    "impactSubtitle": "一緒に、より持続可能な未来を育てています",
+    "stats": {
+      "activeGardeners": "アクティブガーデナー",
+      "waterSaved": "節約されたガロンの水",
+      "co2Sequestered": "隔離されたトンのCO2",
+      "plantsGrown": "成功裏に育てられた植物"
+    },
+    "createPost": {
+      "title": "あなたの経験を共有",
+      "titleLabel": "タイトル",
+      "titlePlaceholder": "あなたの投稿は何についてですか？",
+      "contentLabel": "コンテンツ",
+      "contentPlaceholder": "あなたの経験、ヒントを共有するか、質問をしてください...",
+      "tagsLabel": "タグ（カンマ区切り）",
+      "tagsPlaceholder": "aiケア, モンステラ, 成功ストーリー",
+      "aiAnalysis": "AIがあなたの投稿を分析してインサイトと推奨事項を提供します",
+      "publish": "投稿を公開"
+    },
+    "youtube": {
+      "title": "エコ＆ガーデン動画",
+      "featuredContent": "注目の教育コンテンツ",
+      "moreVideos": "その他の動画",
+      "loadMore": "より多くの教育コンテンツを読み込む"
+    }
+  },
+  "analytics": {
+    "title": "AI分析",
+    "subtitle": "あなたのガーデンのための高度なインサイトと予測",
+    "signInRequired": "分析を表示するにはログインしてください",
+    "signInSubtitle": "AI駆動のインサイトであなたのガーデンのパフォーマンスを追跡",
+    "export": "エクスポート",
+    "timeRanges": {
+      "week": "過去7日間",
+      "month": "過去30日間",
+      "quarter": "過去90日間",
+      "year": "過去365日間"
+    },
+    "metrics": {
+      "plantHealth": "植物健康スコア",
+      "growthRate": "成長率",
+      "careEfficiency": "ケア効率",
+      "resourceUsage": "リソース使用量"
+    },
+    "growthAnalytics": {
+      "title": "成長分析",
+      "actualGrowth": "実際の成長",
+      "aiPrediction": "AI予測",
+      "aiInsight": "AI成長インサイト"
+    },
+    "environmentalFactors": {
+      "title": "環境要因",
+      "lightLevels": "光レベル",
+      "humidity": "湿度",
+      "temperature": "温度",
+      "optimal": "最適",
+      "good": "良好",
+      "perfect": "完璧"
+    },
+    "aiInsights": {
+      "title": "AIインサイト",
+      "optimalWatering": "最適な水やりパターン",
+      "growthAcceleration": "成長加速",
+      "seasonalAdjustment": "季節調整"
+    },
+    "predictiveMaintenance": {
+      "title": "予測メンテナンス",
+      "plant": "植物",
+      "nextAction": "次のアクション",
+      "dueDate": "期日",
+      "priority": "優先度",
+      "aiConfidence": "AI信頼度",
+      "viewFullSchedule": "完全なメンテナンススケジュールを表示"
+    }
+  },
+  "settings": {
+    "title": "設定",
+    "subtitle": "あなたのPlantPal体験をカスタマイズ",
+    "signInRequired": "設定にアクセスするにはログインしてください",
+    "signInSubtitle": "あなたのPlantPal体験をカスタマイズ",
+    "menu": "設定メニュー",
+    "account": "アカウント",
+    "notifications": "通知",
+    "privacy": "プライバシー",
+    "aiSettings": "AI設定",
+    "appearance": "外観",
+    "accountSettings": {
+      "title": "アカウント設定",
+      "fullName": "フルネーム",
+      "emailAddress": "メールアドレス",
+      "bio": "プロフィール",
+      "bioPlaceholder": "あなた自身とあなたのガーデニング経験について教えてください...",
+      "saveChanges": "変更を保存"
+    },
+    "notificationPreferences": {
+      "title": "通知設定",
+      "careReminders": "ケアリマインダー",
+      "careRemindersDesc": "水やり、施肥、その他のケアタスクの通知を受信",
+      "aiInsights": "AIインサイト",
+      "aiInsightsDesc": "AI生成のインサイトと予測について通知を受ける",
+      "communityActivity": "コミュニティ活動",
+      "communityActivityDesc": "コメント、いいね、メンションについての通知",
+      "marketingEmails": "マーケティングメール",
+      "marketingEmailsDesc": "新機能とプロモーションについての更新を受信"
+    },
+    "privacySettings": {
+      "title": "プライバシー設定",
+      "shareGardenData": "ガーデンデータを共有",
+      "shareGardenDataDesc": "AI推奨事項を改善するためにあなたのガーデンデータの匿名共有を許可",
+      "publicProfile": "公開プロフィール",
+      "publicProfileDesc": "あなたのプロフィールとガーデンを他のユーザーに表示",
+      "allowDataAnalysis": "データ分析を許可",
+      "allowDataAnalysisDesc": "私たちのAIがあなたのガーデンデータを分析してパーソナライズされたインサイトを提供することを許可",
+      "locationSharing": "位置情報共有",
+      "locationSharingDesc": "気候固有の推奨事項のためにあなたの位置を共有"
+    },
+    "aiConfiguration": {
+      "title": "AI設定",
+      "aiFeatures": "AI機能",
+      "aiDescription": "私たちの高度なAIがあなたのガーデンデータとどのように相互作用してパーソナライズされたインサイトと推奨事項を提供するかを設定します。",
+      "enablePredictions": "AI予測を有効化",
+      "enablePredictionsDesc": "AIが植物のニーズと成長パターンを予測することを許可",
+      "dataCollection": "データ収集",
+      "dataCollectionDesc": "AIモデルの精度を向上させるために植物データを収集",
+      "automatedCare": "自動化ケア",
+      "automatedCareDesc": "AIが植物のニーズに基づいてケアスケジュールを自動的に調整することを許可",
+      "advancedAnalytics": "高度な分析",
+      "advancedAnalyticsDesc": "あなたのガーデンパフォーマンスの深層学習分析を有効化",
+      "personalizedRecommendations": "パーソナライズされた推奨事項",
+      "personalizedRecommendationsDesc": "AI調整された植物とケアの推奨事項を受信",
+      "resetAIModel": "AIモデルをリセット"
+    },
+    "appearanceSettings": {
+      "title": "外観設定",
+      "theme": "テーマ",
+      "light": "ライト",
+      "dark": "ダーク",
+      "fontSize": "フォントサイズ",
+      "small": "小",
+      "medium": "中",
+      "large": "大",
+      "compactMode": "コンパクトモード",
+      "compactModeDesc": "間隔を減らしてより多くのコンテンツを表示",
+      "highContrast": "ハイコントラスト",
+      "highContrastDesc": "読みやすさを向上させるためにコントラストを増加",
+      "reducedMotion": "モーション削減",
+      "reducedMotionDesc": "アニメーションとトランジションを最小化"
+    }
+  },
+  "auth": {
+    "welcomeBack": "おかえりなさい",
+    "joinPlantPal": "PlantPalに参加",
+    "signInSubtitle": "あなたのAIガーデンにログイン",
+    "signUpSubtitle": "AI駆動の植物ジャーニーを開始",
+    "demoMode": "デモモード",
+    "demoDescription": "これはデモバージョンです。任意のメールとパスワードを使用してプラットフォームを探索できます。",
+    "fullName": "フルネーム",
+    "emailAddress": "メールアドレス",
+    "password": "パスワード",
+    "enterFullName": "フルネームを入力",
+    "enterEmail": "メールを入力",
+    "enterPassword": "パスワードを入力",
+    "signIn": "ログイン",
+    "createAccount": "アカウントを作成",
+    "noAccount": "アカウントをお持ちでないですか？",
+    "hasAccount": "すでにアカウントをお持ちですか？",
+    "signUp": "サインアップ",
+    "demoCredentials": "デモ認証情報：任意のメール/パスワードの組み合わせが機能します"
+  },
+  "errors": {
+    "pageNotFound": "ページが見つかりません",
+    "pageNotFoundMessage": "おっと！このページは休眠状態になったようです。私たちのガーデンの繁栄している地域に戻りましょう。",
+    "returnHome": "ホームに戻る",
+    "explorePlants": "植物を探索",
+    "somethingWentWrong": "おっと！何かがうまくいきませんでした",
+    "errorDescription": "予期しないエラーが発生しました。心配しないでください、私たちのAIは将来の問題を防ぐためにこれから学習しています。",
+    "tryAgain": "再試行",
+    "goHome": "ホームに移動"
+  },
+  "language": {
+    "selectLanguage": "言語を選択",
+    "english": "English",
+    "spanish": "Español",
+    "french": "Français",
+    "german": "Deutsch",
+    "chinese": "中文",
+    "japanese": "日本語"
+  }
+}

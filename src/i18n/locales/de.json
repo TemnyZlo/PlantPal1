@@ -1,0 +1,432 @@
+{
+  "common": {
+    "loading": "Laden...",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "add": "Hinzufügen",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "close": "Schließen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Vorherige",
+    "yes": "Ja",
+    "no": "Nein",
+    "ok": "OK",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "warning": "Warnung",
+    "info": "Information"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "dashboard": "Dashboard",
+    "plants": "Pflanzen",
+    "aiAssistant": "KI-Assistent",
+    "community": "Gemeinschaft",
+    "analytics": "Analysen",
+    "settings": "Einstellungen",
+    "signIn": "Anmelden",
+    "signUp": "Registrieren",
+    "signOut": "Abmelden"
+  },
+  "home": {
+    "title": "KI-gestützte Pflanzenintelligenz",
+    "subtitle": "Revolutionäre Pflanzenpflege-Plattform, die Computer Vision, prädiktive Analytik und maschinelles Lernen kombiniert, um das ultimative Gartenerlebnis zu schaffen.",
+    "experienceAI": "KI-Magie Erleben",
+    "tryScanner": "Pflanzenscanner Ausprobieren",
+    "welcomeBack": "Willkommen zurück, {{name}}!",
+    "totalPlants": "KI-überwachte Pflanzen",
+    "favorites": "Favoriten",
+    "features": {
+      "aiIntelligence": {
+        "title": "KI-Pflanzenintelligenz",
+        "description": "Fortgeschrittene maschinelle Lernalgorithmen analysieren Ihre Pflanzen und bieten personalisierte Pflegeempfehlungen"
+      },
+      "computerVision": {
+        "title": "Computer Vision Analyse",
+        "description": "Identifizieren Sie Pflanzen sofort und diagnostizieren Sie Gesundheitsprobleme mit modernster Bilderkennungstechnologie"
+      },
+      "predictiveCare": {
+        "title": "Prädiktives Pflegesystem",
+        "description": "Intelligente Algorithmen sagen die Bedürfnisse Ihrer Pflanzen voraus, bevor Probleme auftreten, und gewährleisten optimale Gesundheit"
+      },
+      "automatedMonitoring": {
+        "title": "Automatisierte Überwachung",
+        "description": "Echtzeit-Gesundheitsüberwachung mit sofortigen Warnungen und automatisierten Pflegeempfehlungen"
+      }
+    },
+    "stats": {
+      "aiModels": "Trainierte KI-Modelle",
+      "plantsAnalyzed": "Analysierte Pflanzen",
+      "successRate": "Erfolgsrate",
+      "happyGardeners": "Glückliche Gärtner"
+    },
+    "capabilities": {
+      "title": "Intelligente Pflanzenpflege",
+      "subtitle": "Erleben Sie die Zukunft des Gärtnerns mit unseren fortgeschrittenen KI-Systemen, die jeden Aspekt der Pflanzenpflege verstehen, vorhersagen und optimieren.",
+      "plantDiagnosis": {
+        "title": "Pflanzengesundheitsdiagnose",
+        "description": "Laden Sie ein Foto hoch und erhalten Sie sofortige KI-gestützte Gesundheitsanalyse mit Behandlungsempfehlungen",
+        "demo": "Kamera Ausprobieren"
+      },
+      "predictiveAlerts": {
+        "title": "Prädiktive Pflegewarnungen",
+        "description": "KI sagt voraus, wann Ihre Pflanzen Wasser, Dünger oder Aufmerksamkeit benötigen, bevor Probleme auftreten",
+        "demo": "Vorhersagen Anzeigen"
+      },
+      "gardenPlanning": {
+        "title": "Intelligente Gartenplanung",
+        "description": "KI entwirft optimale Gartenlayouts basierend auf Ihrem Raum, Klima und Vorlieben",
+        "demo": "Garten Planen"
+      }
+    },
+    "cta": {
+      "title": "Bereit für die Zukunft des Gärtnerns?",
+      "subtitle": "Schließen Sie sich Tausenden von Gärtnern an, die bereits die Kraft der KI-gesteuerten Pflanzenpflege erleben.",
+      "startGarden": "Starten Sie Ihren KI-Garten",
+      "joinCommunity": "Gemeinschaft Beitreten"
+    }
+  },
+  "dashboard": {
+    "title": "KI-Dashboard",
+    "welcome": "Willkommen zurück, {{name}}! Ihr KI-Assistent hat Ihren Garten überwacht.",
+    "aiActive": "KI Aktiv",
+    "signInRequired": "Melden Sie sich an, um Ihr Dashboard zu sehen",
+    "signInSubtitle": "Verfolgen Sie Ihre KI-gestützte Pflanzenpflege-Reise",
+    "stats": {
+      "totalPlants": "Gesamte Pflanzen",
+      "healthyPlants": "Gesunde Pflanzen",
+      "needAttention": "Benötigen Aufmerksamkeit",
+      "favorites": "Favoriten",
+      "healthRate": "Gesundheitsrate",
+      "aiMonitoring": "KI-Überwachung",
+      "curatedCollection": "kuratierte Sammlung",
+      "thisWeek": "diese Woche"
+    },
+    "aiInsights": {
+      "title": "KI-Einblicke",
+      "realTime": "Echtzeit",
+      "viewAll": "Alle KI-Einblicke Anzeigen"
+    },
+    "careSchedule": {
+      "title": "KI-Pflegeplan",
+      "autoOptimized": "Auto-optimiert",
+      "viewFull": "Vollständigen Plan Anzeigen"
+    },
+    "growthAnalytics": {
+      "title": "KI-Wachstumsanalysen",
+      "growthRate": "Wachstumsrate",
+      "loading": "Lade KI-gestützte Wachstumsanalysen..."
+    }
+  },
+  "plants": {
+    "title": "Pflanzendatenbank",
+    "subtitle": "Erkunden Sie unsere KI-kuratierte Pflanzensammlung",
+    "searchPlaceholder": "Pflanzen nach Name, Eigenschaften oder Pflegebedürfnissen suchen...",
+    "filters": "Filter",
+    "advancedFilters": "Erweiterte Filter",
+    "careLevel": "Pflegeaufwand",
+    "waterNeeds": "Wasserbedarf",
+    "lightNeeds": "Lichtbedarf",
+    "nativePlantsOnly": "Nur Einheimische Pflanzen",
+    "reset": "Zurücksetzen",
+    "applyFilters": "Filter Anwenden",
+    "allLevels": "Alle Stufen",
+    "allWaterNeeds": "Alle Wasserbedürfnisse",
+    "allLightNeeds": "Alle Lichtbedürfnisse",
+    "easy": "Einfach",
+    "intermediate": "Mittel",
+    "difficult": "Schwierig",
+    "low": "Niedrig",
+    "moderate": "Mäßig",
+    "high": "Hoch",
+    "lowLight": "Schwaches Licht",
+    "indirectLight": "Indirektes Licht",
+    "brightLight": "Helles Licht",
+    "fullSun": "Volle Sonne",
+    "native": "Einheimisch",
+    "aiScore": "KI-Bewertung",
+    "aiRecommendation": "KI-Empfehlung",
+    "details": "Details",
+    "addToGarden": "Zum Garten Hinzufügen",
+    "noResults": "Keine Pflanzen gefunden",
+    "noResultsMessage": "Keine Pflanzen entsprechen Ihrer Suche nach \"{{query}}\". Versuchen Sie andere Suchbegriffe oder passen Sie Ihre Filter an.",
+    "startExploring": "Beginnen Sie mit der Erkundung von Pflanzen",
+    "startExploringMessage": "Verwenden Sie die Suchleiste oder Filter, um Pflanzen zu entdecken, die Ihren Bedürfnissen entsprechen.",
+    "clearSearch": "Suche Löschen",
+    "loadingPlants": "Lade Pflanzen..."
+  },
+  "plantDetails": {
+    "backToPlants": "Zurück zu Pflanzen",
+    "addToGarden": "Zu Meinem Garten Hinzufügen",
+    "aiCareGuide": "KI-Pflegeanleitung",
+    "growthPrediction": "Wachstumsvorhersage",
+    "troubleshooting": "Fehlerbehebung",
+    "about": "Über",
+    "aiSchedule": {
+      "title": "KI-Pflegeplan",
+      "description": "Unsere KI hat diese Pflanzenart analysiert und einen personalisierten Pflegeplan erstellt, der für Ihre Umgebung und Ihr Erfahrungsniveau optimiert ist.",
+      "watering": "Bewässerung",
+      "fertilizing": "Düngung",
+      "repotting": "Umtopfen",
+      "frequency": "Häufigkeit",
+      "next": "Nächste",
+      "addToCalendar": "Zu Meinem Pflegekalender Hinzufügen"
+    },
+    "growthForecast": {
+      "title": "KI-Wachstumsvorhersage",
+      "description": "Unser prädiktives KI-Modell prognostiziert, wie sich Ihre Pflanze im Laufe der Zeit entwickeln wird, basierend auf Artendaten, Ihren Pflegemustern und Umweltbedingungen.",
+      "oneMonth": "1-Monats-Prognose",
+      "sixMonths": "6-Monats-Prognose",
+      "oneYear": "1-Jahres-Prognose",
+      "aiInsight": "KI-Einblick"
+    },
+    "troubleshootingGuide": {
+      "title": "KI-Fehlerbehebung",
+      "description": "Unsere KI hat häufige Probleme für diese Pflanzenart identifiziert und Lösungen basierend auf wissenschaftlicher Forschung und Expertenwissen bereitgestellt.",
+      "possibleCauses": "Mögliche Ursachen",
+      "solutions": "Lösungen",
+      "scanForIssues": "Meine Pflanze auf Probleme Scannen"
+    },
+    "plantInfo": {
+      "scientificName": "Wissenschaftlicher Name",
+      "growthRate": "Wachstumsrate",
+      "soilType": "Bodentyp",
+      "humidity": "Luftfeuchtigkeit",
+      "propagation": "Vermehrung",
+      "toxicity": "Toxizität",
+      "native": "Einheimisch",
+      "careLevel": "Pflegeaufwand"
+    }
+  },
+  "aiAssistant": {
+    "title": "KI-Pflanzenintelligenz",
+    "subtitle": "Fortgeschrittenes maschinelles Lernen und Computer Vision zur Lösung jedes Pflanzenproblems",
+    "whatCanIHelp": "Womit kann ich Ihnen helfen?",
+    "suggestions": {
+      "identify": "Identifizieren Sie diese Pflanze für mich",
+      "diagnose": "Was ist mit meiner Pflanze los?",
+      "schedule": "Einen Pflegeplan erstellen",
+      "predict": "Das Wachstum meiner Pflanze vorhersagen"
+    },
+    "aiName": "PlantPal KI",
+    "aiDescription": "Fortgeschrittenes Pflanzenintelligenz-System",
+    "active": "Aktiv",
+    "aiThinking": "KI denkt nach...",
+    "uploadImage": "Pflanzenbild für Analyse hochladen",
+    "voiceInput": "Spracheingabe",
+    "askAnything": "Fragen Sie alles über Ihre Pflanzen...",
+    "features": {
+      "computerVision": {
+        "title": "Computer Vision",
+        "description": "Laden Sie Fotos für sofortige Pflanzenidentifikation und Gesundheitsanalyse hoch"
+      },
+      "predictiveIntelligence": {
+        "title": "Prädiktive Intelligenz",
+        "description": "KI sagt Pflanzenbedürfnisse voraus, bevor Probleme auftreten"
+      },
+      "smartAutomation": {
+        "title": "Intelligente Automatisierung",
+        "description": "Automatisierte Pflegepläne, die sich an die sich ändernden Bedürfnisse Ihrer Pflanzen anpassen"
+      }
+    }
+  },
+  "community": {
+    "title": "KI-Gemeinschaft",
+    "subtitle": "Verbinden Sie sich mit Pflanzenliebhabern und teilen Sie KI-gestützte Einblicke",
+    "shareExperience": "Teilen Sie Ihre Erfahrung",
+    "trendingTopics": "Trending-Themen",
+    "topContributors": "Top-Beitragende",
+    "aiCommunityInsights": "KI-Gemeinschaftseinblicke",
+    "communityImpact": "Gemeinschaftseinfluss",
+    "impactSubtitle": "Gemeinsam kultivieren wir eine nachhaltigere Zukunft",
+    "stats": {
+      "activeGardeners": "Aktive Gärtner",
+      "waterSaved": "Gesparte Gallonen Wasser",
+      "co2Sequestered": "Sequestrierte Tonnen CO2",
+      "plantsGrown": "Erfolgreich Angebaute Pflanzen"
+    },
+    "createPost": {
+      "title": "Teilen Sie Ihre Erfahrung",
+      "titleLabel": "Titel",
+      "titlePlaceholder": "Worum geht es in Ihrem Beitrag?",
+      "contentLabel": "Inhalt",
+      "contentPlaceholder": "Teilen Sie Ihre Erfahrung, Tipps oder stellen Sie Fragen...",
+      "tagsLabel": "Tags (durch Kommas getrennt)",
+      "tagsPlaceholder": "ki-pflege, monstera, erfolgsgeschichte",
+      "aiAnalysis": "KI wird Ihren Beitrag analysieren, um Einblicke und Empfehlungen zu geben",
+      "publish": "Veröffentlichen"
+    },
+    "youtube": {
+      "title": "Öko- und Gartenvideos",
+      "featuredContent": "Ausgewählte Bildungsinhalte",
+      "moreVideos": "Mehr Videos",
+      "loadMore": "Mehr Bildungsinhalte Laden"
+    }
+  },
+  "analytics": {
+    "title": "KI-Analysen",
+    "subtitle": "Erweiterte Einblicke und Vorhersagen für Ihren Garten",
+    "signInRequired": "Melden Sie sich an, um Analysen zu sehen",
+    "signInSubtitle": "Verfolgen Sie die Leistung Ihres Gartens mit KI-gestützten Einblicken",
+    "export": "Exportieren",
+    "timeRanges": {
+      "week": "Letzte 7 Tage",
+      "month": "Letzte 30 Tage",
+      "quarter": "Letzte 90 Tage",
+      "year": "Letzte 365 Tage"
+    },
+    "metrics": {
+      "plantHealth": "Pflanzengesundheits-Score",
+      "growthRate": "Wachstumsrate",
+      "careEfficiency": "Pflegeeffizienz",
+      "resourceUsage": "Ressourcenverbrauch"
+    },
+    "growthAnalytics": {
+      "title": "Wachstumsanalysen",
+      "actualGrowth": "Tatsächliches Wachstum",
+      "aiPrediction": "KI-Vorhersage",
+      "aiInsight": "KI-Wachstumseinblick"
+    },
+    "environmentalFactors": {
+      "title": "Umweltfaktoren",
+      "lightLevels": "Lichtstärken",
+      "humidity": "Luftfeuchtigkeit",
+      "temperature": "Temperatur",
+      "optimal": "Optimal",
+      "good": "Gut",
+      "perfect": "Perfekt"
+    },
+    "aiInsights": {
+      "title": "KI-Einblicke",
+      "optimalWatering": "Optimales Bewässerungsmuster",
+      "growthAcceleration": "Wachstumsbeschleunigung",
+      "seasonalAdjustment": "Saisonale Anpassung"
+    },
+    "predictiveMaintenance": {
+      "title": "Prädiktive Wartung",
+      "plant": "Pflanze",
+      "nextAction": "Nächste Aktion",
+      "dueDate": "Fälligkeitsdatum",
+      "priority": "Priorität",
+      "aiConfidence": "KI-Vertrauen",
+      "viewFullSchedule": "Vollständigen Wartungsplan Anzeigen"
+    }
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "subtitle": "Passen Sie Ihre PlantPal-Erfahrung an",
+    "signInRequired": "Melden Sie sich an, um auf Einstellungen zuzugreifen",
+    "signInSubtitle": "Passen Sie Ihre PlantPal-Erfahrung an",
+    "menu": "Einstellungsmenü",
+    "account": "Konto",
+    "notifications": "Benachrichtigungen",
+    "privacy": "Datenschutz",
+    "aiSettings": "KI-Einstellungen",
+    "appearance": "Erscheinungsbild",
+    "accountSettings": {
+      "title": "Kontoeinstellungen",
+      "fullName": "Vollständiger Name",
+      "emailAddress": "E-Mail-Adresse",
+      "bio": "Biografie",
+      "bioPlaceholder": "Erzählen Sie uns von sich und Ihrer Gartenerfahrung...",
+      "saveChanges": "Änderungen Speichern"
+    },
+    "notificationPreferences": {
+      "title": "Benachrichtigungseinstellungen",
+      "careReminders": "Pflegeerinnerungen",
+      "careRemindersDesc": "Benachrichtigungen für Bewässerung, Düngung und andere Pflegeaufgaben erhalten",
+      "aiInsights": "KI-Einblicke",
+      "aiInsightsDesc": "Über KI-generierte Einblicke und Vorhersagen benachrichtigt werden",
+      "communityActivity": "Gemeinschaftsaktivität",
+      "communityActivityDesc": "Benachrichtigungen über Kommentare, Likes und Erwähnungen",
+      "marketingEmails": "Marketing-E-Mails",
+      "marketingEmailsDesc": "Updates über neue Funktionen und Aktionen erhalten"
+    },
+    "privacySettings": {
+      "title": "Datenschutzeinstellungen",
+      "shareGardenData": "Gartendaten Teilen",
+      "shareGardenDataDesc": "Anonymes Teilen Ihrer Gartendaten zur Verbesserung der KI-Empfehlungen erlauben",
+      "publicProfile": "Öffentliches Profil",
+      "publicProfileDesc": "Ihr Profil und Garten für andere Benutzer sichtbar machen",
+      "allowDataAnalysis": "Datenanalyse Erlauben",
+      "allowDataAnalysisDesc": "Unserer KI erlauben, Ihre Gartendaten zu analysieren, um personalisierte Einblicke zu bieten",
+      "locationSharing": "Standort Teilen",
+      "locationSharingDesc": "Ihren Standort für klimaspezifische Empfehlungen teilen"
+    },
+    "aiConfiguration": {
+      "title": "KI-Konfiguration",
+      "aiFeatures": "KI-Funktionen",
+      "aiDescription": "Konfigurieren Sie, wie unsere fortgeschrittene KI mit Ihren Gartendaten interagiert, um personalisierte Einblicke und Empfehlungen zu bieten.",
+      "enablePredictions": "KI-Vorhersagen Aktivieren",
+      "enablePredictionsDesc": "KI erlauben, Pflanzenbedürfnisse und Wachstumsmuster vorherzusagen",
+      "dataCollection": "Datensammlung",
+      "dataCollectionDesc": "Pflanzendaten sammeln, um die Genauigkeit des KI-Modells zu verbessern",
+      "automatedCare": "Automatisierte Pflege",
+      "automatedCareDesc": "KI erlauben, Pflegepläne automatisch basierend auf Pflanzenbedürfnissen anzupassen",
+      "advancedAnalytics": "Erweiterte Analysen",
+      "advancedAnalyticsDesc": "Deep-Learning-Analyse Ihrer Gartenleistung aktivieren",
+      "personalizedRecommendations": "Personalisierte Empfehlungen",
+      "personalizedRecommendationsDesc": "KI-maßgeschneiderte Pflanzen- und Pflegeempfehlungen erhalten",
+      "resetAIModel": "KI-Modell Zurücksetzen"
+    },
+    "appearanceSettings": {
+      "title": "Erscheinungseinstellungen",
+      "theme": "Design",
+      "light": "Hell",
+      "dark": "Dunkel",
+      "fontSize": "Schriftgröße",
+      "small": "Klein",
+      "medium": "Mittel",
+      "large": "Groß",
+      "compactMode": "Kompaktmodus",
+      "compactModeDesc": "Mehr Inhalt mit reduziertem Abstand anzeigen",
+      "highContrast": "Hoher Kontrast",
+      "highContrastDesc": "Kontrast für bessere Lesbarkeit erhöhen",
+      "reducedMotion": "Reduzierte Bewegung",
+      "reducedMotionDesc": "Animationen und Übergänge minimieren"
+    }
+  },
+  "auth": {
+    "welcomeBack": "Willkommen Zurück",
+    "joinPlantPal": "PlantPal Beitreten",
+    "signInSubtitle": "Melden Sie sich in Ihrem KI-Garten an",
+    "signUpSubtitle": "Beginnen Sie Ihre KI-gestützte Pflanzenreise",
+    "demoMode": "Demo-Modus",
+    "demoDescription": "Dies ist eine Demo-Version. Sie können jede E-Mail und jedes Passwort verwenden, um die Plattform zu erkunden.",
+    "fullName": "Vollständiger Name",
+    "emailAddress": "E-Mail-Adresse",
+    "password": "Passwort",
+    "enterFullName": "Geben Sie Ihren vollständigen Namen ein",
+    "enterEmail": "Geben Sie Ihre E-Mail ein",
+    "enterPassword": "Geben Sie Ihr Passwort ein",
+    "signIn": "Anmelden",
+    "createAccount": "Konto Erstellen",
+    "noAccount": "Haben Sie kein Konto?",
+    "hasAccount": "Haben Sie bereits ein Konto?",
+    "signUp": "Registrieren",
+    "demoCredentials": "Demo-Anmeldedaten: Jede E-Mail/Passwort-Kombination funktioniert"
+  },
+  "errors": {
+    "pageNotFound": "Seite Nicht Gefunden",
+    "pageNotFoundMessage": "Ups! Es scheint, als wäre diese Seite ruhend geworden. Kehren wir zu einem blühenden Bereich unseres Gartens zurück.",
+    "returnHome": "Zur Startseite Zurückkehren",
+    "explorePlants": "Pflanzen Erkunden",
+    "somethingWentWrong": "Ups! Etwas ist schiefgelaufen",
+    "errorDescription": "Wir sind auf einen unerwarteten Fehler gestoßen. Keine Sorge, unsere KI lernt daraus, um zukünftige Probleme zu verhindern.",
+    "tryAgain": "Erneut Versuchen",
+    "goHome": "Zur Startseite"
+  },
+  "language": {
+    "selectLanguage": "Sprache Auswählen",
+    "english": "English",
+    "spanish": "Español",
+    "french": "Français",
+    "german": "Deutsch",
+    "chinese": "中文",
+    "japanese": "日本語"
+  }
+}

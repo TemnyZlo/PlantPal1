@@ -1,0 +1,432 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "add": "Ajouter",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "yes": "Oui",
+    "no": "Non",
+    "ok": "OK",
+    "error": "Erreur",
+    "success": "Succès",
+    "warning": "Avertissement",
+    "info": "Information"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "dashboard": "Tableau de bord",
+    "plants": "Plantes",
+    "aiAssistant": "Assistant IA",
+    "community": "Communauté",
+    "analytics": "Analyses",
+    "settings": "Paramètres",
+    "signIn": "Se connecter",
+    "signUp": "S'inscrire",
+    "signOut": "Se déconnecter"
+  },
+  "home": {
+    "title": "Intelligence Végétale Alimentée par l'IA",
+    "subtitle": "Plateforme révolutionnaire de soins des plantes combinant vision par ordinateur, analyses prédictives et apprentissage automatique pour créer l'expérience de jardinage ultime.",
+    "experienceAI": "Découvrez la Magie de l'IA",
+    "tryScanner": "Essayer le Scanner de Plantes",
+    "welcomeBack": "Bon retour, {{name}} !",
+    "totalPlants": "Plantes Surveillées par l'IA",
+    "favorites": "Favoris",
+    "features": {
+      "aiIntelligence": {
+        "title": "Intelligence Végétale IA",
+        "description": "Des algorithmes d'apprentissage automatique avancés analysent vos plantes et fournissent des recommandations de soins personnalisées"
+      },
+      "computerVision": {
+        "title": "Analyse par Vision Informatique",
+        "description": "Identifiez instantanément les plantes et diagnostiquez les problèmes de santé en utilisant une technologie de reconnaissance d'images de pointe"
+      },
+      "predictiveCare": {
+        "title": "Système de Soins Prédictifs",
+        "description": "Des algorithmes intelligents prédisent les besoins de vos plantes avant que les problèmes ne surviennent, assurant une santé optimale"
+      },
+      "automatedMonitoring": {
+        "title": "Surveillance Automatisée",
+        "description": "Surveillance de la santé en temps réel avec alertes instantanées et recommandations de soins automatisées"
+      }
+    },
+    "stats": {
+      "aiModels": "Modèles IA Entraînés",
+      "plantsAnalyzed": "Plantes Analysées",
+      "successRate": "Taux de Réussite",
+      "happyGardeners": "Jardiniers Heureux"
+    },
+    "capabilities": {
+      "title": "Soins Intelligents des Plantes",
+      "subtitle": "Découvrez l'avenir du jardinage avec nos systèmes d'IA avancés qui comprennent, prédisent et optimisent chaque aspect des soins des plantes.",
+      "plantDiagnosis": {
+        "title": "Diagnostic de Santé des Plantes",
+        "description": "Téléchargez une photo et obtenez une analyse de santé instantanée alimentée par l'IA avec des recommandations de traitement",
+        "demo": "Essayer l'Appareil Photo"
+      },
+      "predictiveAlerts": {
+        "title": "Alertes de Soins Prédictifs",
+        "description": "L'IA prédit quand vos plantes ont besoin d'eau, d'engrais ou d'attention avant que les problèmes ne surviennent",
+        "demo": "Voir les Prédictions"
+      },
+      "gardenPlanning": {
+        "title": "Planification Intelligente de Jardin",
+        "description": "L'IA conçoit des aménagements de jardin optimaux basés sur votre espace, climat et préférences",
+        "demo": "Planifier le Jardin"
+      }
+    },
+    "cta": {
+      "title": "Prêt pour l'Avenir du Jardinage ?",
+      "subtitle": "Rejoignez des milliers de jardiniers qui expérimentent déjà la puissance des soins des plantes alimentés par l'IA.",
+      "startGarden": "Commencez Votre Jardin IA",
+      "joinCommunity": "Rejoindre la Communauté"
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de Bord IA",
+    "welcome": "Bon retour, {{name}} ! Votre assistant IA a surveillé votre jardin.",
+    "aiActive": "IA Active",
+    "signInRequired": "Connectez-vous pour voir votre tableau de bord",
+    "signInSubtitle": "Suivez votre parcours de soins des plantes alimenté par l'IA",
+    "stats": {
+      "totalPlants": "Total des Plantes",
+      "healthyPlants": "Plantes en Bonne Santé",
+      "needAttention": "Nécessitent de l'Attention",
+      "favorites": "Favoris",
+      "healthRate": "taux de santé",
+      "aiMonitoring": "surveillance IA",
+      "curatedCollection": "collection organisée",
+      "thisWeek": "cette semaine"
+    },
+    "aiInsights": {
+      "title": "Aperçus IA",
+      "realTime": "Temps réel",
+      "viewAll": "Voir Tous les Aperçus IA"
+    },
+    "careSchedule": {
+      "title": "Programme de Soins IA",
+      "autoOptimized": "Auto-optimisé",
+      "viewFull": "Voir le Programme Complet"
+    },
+    "growthAnalytics": {
+      "title": "Analyses de Croissance IA",
+      "growthRate": "Taux de Croissance",
+      "loading": "Chargement des analyses de croissance alimentées par l'IA..."
+    }
+  },
+  "plants": {
+    "title": "Base de Données des Plantes",
+    "subtitle": "Explorez notre collection de plantes organisée par l'IA",
+    "searchPlaceholder": "Rechercher des plantes par nom, caractéristiques ou besoins de soins...",
+    "filters": "Filtres",
+    "advancedFilters": "Filtres Avancés",
+    "careLevel": "Niveau de Soins",
+    "waterNeeds": "Besoins en Eau",
+    "lightNeeds": "Besoins en Lumière",
+    "nativePlantsOnly": "Plantes Indigènes Seulement",
+    "reset": "Réinitialiser",
+    "applyFilters": "Appliquer les Filtres",
+    "allLevels": "Tous les Niveaux",
+    "allWaterNeeds": "Tous les Besoins en Eau",
+    "allLightNeeds": "Tous les Besoins en Lumière",
+    "easy": "Facile",
+    "intermediate": "Intermédiaire",
+    "difficult": "Difficile",
+    "low": "Faible",
+    "moderate": "Modéré",
+    "high": "Élevé",
+    "lowLight": "Faible Lumière",
+    "indirectLight": "Lumière Indirecte",
+    "brightLight": "Lumière Vive",
+    "fullSun": "Plein Soleil",
+    "native": "Indigène",
+    "aiScore": "Score IA",
+    "aiRecommendation": "Recommandation IA",
+    "details": "Détails",
+    "addToGarden": "Ajouter au Jardin",
+    "noResults": "Aucune plante trouvée",
+    "noResultsMessage": "Aucune plante ne correspond à votre recherche pour \"{{query}}\". Essayez des mots-clés différents ou ajustez vos filtres.",
+    "startExploring": "Commencer à explorer les plantes",
+    "startExploringMessage": "Utilisez la barre de recherche ou les filtres pour découvrir des plantes qui correspondent à vos besoins.",
+    "clearSearch": "Effacer la Recherche",
+    "loadingPlants": "Chargement des plantes..."
+  },
+  "plantDetails": {
+    "backToPlants": "Retour aux Plantes",
+    "addToGarden": "Ajouter à Mon Jardin",
+    "aiCareGuide": "Guide de Soins IA",
+    "growthPrediction": "Prédiction de Croissance",
+    "troubleshooting": "Dépannage",
+    "about": "À propos",
+    "aiSchedule": {
+      "title": "Programme de Soins IA",
+      "description": "Notre IA a analysé cette espèce de plante et créé un programme de soins personnalisé optimisé pour votre environnement et niveau d'expérience.",
+      "watering": "Arrosage",
+      "fertilizing": "Fertilisation",
+      "repotting": "Rempotage",
+      "frequency": "Fréquence",
+      "next": "Suivant",
+      "addToCalendar": "Ajouter à Mon Calendrier de Soins"
+    },
+    "growthForecast": {
+      "title": "Prédiction de Croissance IA",
+      "description": "Notre modèle d'IA prédictive prévoit comment votre plante se développera au fil du temps basé sur les données d'espèces, vos habitudes de soins et les conditions environnementales.",
+      "oneMonth": "Prévision 1 Mois",
+      "sixMonths": "Prévision 6 Mois",
+      "oneYear": "Prévision 1 An",
+      "aiInsight": "Aperçu IA"
+    },
+    "troubleshootingGuide": {
+      "title": "Dépannage IA",
+      "description": "Notre IA a identifié des problèmes courants pour cette espèce de plante et fourni des solutions basées sur la recherche scientifique et les connaissances d'experts.",
+      "possibleCauses": "Causes Possibles",
+      "solutions": "Solutions",
+      "scanForIssues": "Scanner Ma Plante pour les Problèmes"
+    },
+    "plantInfo": {
+      "scientificName": "Nom Scientifique",
+      "growthRate": "Taux de Croissance",
+      "soilType": "Type de Sol",
+      "humidity": "Humidité",
+      "propagation": "Propagation",
+      "toxicity": "Toxicité",
+      "native": "Indigène",
+      "careLevel": "Niveau de Soins"
+    }
+  },
+  "aiAssistant": {
+    "title": "Intelligence Végétale IA",
+    "subtitle": "Apprentissage automatique avancé et vision par ordinateur pour résoudre tout problème de plantes",
+    "whatCanIHelp": "Comment puis-je vous aider ?",
+    "suggestions": {
+      "identify": "Identifiez cette plante pour moi",
+      "diagnose": "Qu'est-ce qui ne va pas avec ma plante ?",
+      "schedule": "Créer un programme de soins",
+      "predict": "Prédire la croissance de ma plante"
+    },
+    "aiName": "PlantPal IA",
+    "aiDescription": "Système avancé d'intelligence végétale",
+    "active": "Actif",
+    "aiThinking": "IA en réflexion...",
+    "uploadImage": "Télécharger une image de plante pour analyse",
+    "voiceInput": "Entrée vocale",
+    "askAnything": "Demandez n'importe quoi sur vos plantes...",
+    "features": {
+      "computerVision": {
+        "title": "Vision par Ordinateur",
+        "description": "Téléchargez des photos pour identification instantanée des plantes et analyse de santé"
+      },
+      "predictiveIntelligence": {
+        "title": "Intelligence Prédictive",
+        "description": "L'IA prédit les besoins des plantes avant que les problèmes ne surviennent"
+      },
+      "smartAutomation": {
+        "title": "Automatisation Intelligente",
+        "description": "Programmes de soins automatisés qui s'adaptent aux besoins changeants de vos plantes"
+      }
+    }
+  },
+  "community": {
+    "title": "Communauté IA",
+    "subtitle": "Connectez-vous avec les passionnés de plantes et partagez des aperçus alimentés par l'IA",
+    "shareExperience": "Partagez Votre Expérience",
+    "trendingTopics": "Sujets Tendance",
+    "topContributors": "Principaux Contributeurs",
+    "aiCommunityInsights": "Aperçus de la Communauté IA",
+    "communityImpact": "Impact de la Communauté",
+    "impactSubtitle": "Ensemble, nous cultivons un avenir plus durable",
+    "stats": {
+      "activeGardeners": "Jardiniers Actifs",
+      "waterSaved": "Gallons d'Eau Économisés",
+      "co2Sequestered": "Tonnes de CO2 Séquestrées",
+      "plantsGrown": "Plantes Cultivées avec Succès"
+    },
+    "createPost": {
+      "title": "Partagez Votre Expérience",
+      "titleLabel": "Titre",
+      "titlePlaceholder": "De quoi parle votre publication ?",
+      "contentLabel": "Contenu",
+      "contentPlaceholder": "Partagez votre expérience, conseils ou posez des questions...",
+      "tagsLabel": "Étiquettes (séparées par des virgules)",
+      "tagsPlaceholder": "soins-ia, monstera, histoire-succès",
+      "aiAnalysis": "L'IA analysera votre publication pour fournir des aperçus et recommandations",
+      "publish": "Publier"
+    },
+    "youtube": {
+      "title": "Vidéos Éco et Jardin",
+      "featuredContent": "Contenu Éducatif en Vedette",
+      "moreVideos": "Plus de Vidéos",
+      "loadMore": "Charger Plus de Contenu Éducatif"
+    }
+  },
+  "analytics": {
+    "title": "Analyses IA",
+    "subtitle": "Aperçus avancés et prédictions pour votre jardin",
+    "signInRequired": "Connectez-vous pour voir les analyses",
+    "signInSubtitle": "Suivez les performances de votre jardin avec des aperçus alimentés par l'IA",
+    "export": "Exporter",
+    "timeRanges": {
+      "week": "7 Derniers Jours",
+      "month": "30 Derniers Jours",
+      "quarter": "90 Derniers Jours",
+      "year": "365 Derniers Jours"
+    },
+    "metrics": {
+      "plantHealth": "Score de Santé des Plantes",
+      "growthRate": "Taux de Croissance",
+      "careEfficiency": "Efficacité des Soins",
+      "resourceUsage": "Utilisation des Ressources"
+    },
+    "growthAnalytics": {
+      "title": "Analyses de Croissance",
+      "actualGrowth": "Croissance Réelle",
+      "aiPrediction": "Prédiction IA",
+      "aiInsight": "Aperçu de Croissance IA"
+    },
+    "environmentalFactors": {
+      "title": "Facteurs Environnementaux",
+      "lightLevels": "Niveaux de Lumière",
+      "humidity": "Humidité",
+      "temperature": "Température",
+      "optimal": "Optimal",
+      "good": "Bon",
+      "perfect": "Parfait"
+    },
+    "aiInsights": {
+      "title": "Aperçus IA",
+      "optimalWatering": "Modèle d'Arrosage Optimal",
+      "growthAcceleration": "Accélération de Croissance",
+      "seasonalAdjustment": "Ajustement Saisonnier"
+    },
+    "predictiveMaintenance": {
+      "title": "Maintenance Prédictive",
+      "plant": "Plante",
+      "nextAction": "Prochaine Action",
+      "dueDate": "Date d'Échéance",
+      "priority": "Priorité",
+      "aiConfidence": "Confiance IA",
+      "viewFullSchedule": "Voir le Programme Complet de Maintenance"
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "subtitle": "Personnalisez votre expérience PlantPal",
+    "signInRequired": "Connectez-vous pour accéder aux paramètres",
+    "signInSubtitle": "Personnalisez votre expérience PlantPal",
+    "menu": "Menu des Paramètres",
+    "account": "Compte",
+    "notifications": "Notifications",
+    "privacy": "Confidentialité",
+    "aiSettings": "Paramètres IA",
+    "appearance": "Apparence",
+    "accountSettings": {
+      "title": "Paramètres du Compte",
+      "fullName": "Nom Complet",
+      "emailAddress": "Adresse E-mail",
+      "bio": "Biographie",
+      "bioPlaceholder": "Parlez-nous de vous et de votre expérience en jardinage...",
+      "saveChanges": "Enregistrer les Modifications"
+    },
+    "notificationPreferences": {
+      "title": "Préférences de Notification",
+      "careReminders": "Rappels de Soins",
+      "careRemindersDesc": "Recevoir des notifications pour l'arrosage, la fertilisation et autres tâches de soins",
+      "aiInsights": "Aperçus IA",
+      "aiInsightsDesc": "Être notifié des aperçus et prédictions générés par l'IA",
+      "communityActivity": "Activité de la Communauté",
+      "communityActivityDesc": "Notifications sur les commentaires, j'aime et mentions",
+      "marketingEmails": "E-mails Marketing",
+      "marketingEmailsDesc": "Recevoir des mises à jour sur les nouvelles fonctionnalités et promotions"
+    },
+    "privacySettings": {
+      "title": "Paramètres de Confidentialité",
+      "shareGardenData": "Partager les Données du Jardin",
+      "shareGardenDataDesc": "Permettre le partage anonyme des données de votre jardin pour améliorer les recommandations IA",
+      "publicProfile": "Profil Public",
+      "publicProfileDesc": "Rendre votre profil et jardin visibles aux autres utilisateurs",
+      "allowDataAnalysis": "Autoriser l'Analyse des Données",
+      "allowDataAnalysisDesc": "Laisser notre IA analyser les données de votre jardin pour fournir des aperçus personnalisés",
+      "locationSharing": "Partage de Localisation",
+      "locationSharingDesc": "Partager votre localisation pour des recommandations spécifiques au climat"
+    },
+    "aiConfiguration": {
+      "title": "Configuration IA",
+      "aiFeatures": "Fonctionnalités IA",
+      "aiDescription": "Configurez comment notre IA avancée interagit avec les données de votre jardin pour fournir des aperçus et recommandations personnalisés.",
+      "enablePredictions": "Activer les Prédictions IA",
+      "enablePredictionsDesc": "Permettre à l'IA de prédire les besoins et modèles de croissance des plantes",
+      "dataCollection": "Collecte de Données",
+      "dataCollectionDesc": "Collecter des données de plantes pour améliorer la précision du modèle IA",
+      "automatedCare": "Soins Automatisés",
+      "automatedCareDesc": "Permettre à l'IA d'ajuster automatiquement les programmes de soins basés sur les besoins des plantes",
+      "advancedAnalytics": "Analyses Avancées",
+      "advancedAnalyticsDesc": "Activer l'analyse d'apprentissage profond des performances de votre jardin",
+      "personalizedRecommendations": "Recommandations Personnalisées",
+      "personalizedRecommendationsDesc": "Recevoir des recommandations de plantes et soins adaptées par l'IA",
+      "resetAIModel": "Réinitialiser le Modèle IA"
+    },
+    "appearanceSettings": {
+      "title": "Paramètres d'Apparence",
+      "theme": "Thème",
+      "light": "Clair",
+      "dark": "Sombre",
+      "fontSize": "Taille de Police",
+      "small": "Petit",
+      "medium": "Moyen",
+      "large": "Grand",
+      "compactMode": "Mode Compact",
+      "compactModeDesc": "Afficher plus de contenu avec un espacement réduit",
+      "highContrast": "Contraste Élevé",
+      "highContrastDesc": "Augmenter le contraste pour une meilleure lisibilité",
+      "reducedMotion": "Mouvement Réduit",
+      "reducedMotionDesc": "Minimiser les animations et transitions"
+    }
+  },
+  "auth": {
+    "welcomeBack": "Bon Retour",
+    "joinPlantPal": "Rejoindre PlantPal",
+    "signInSubtitle": "Connectez-vous à votre jardin IA",
+    "signUpSubtitle": "Commencez votre voyage de plantes alimenté par l'IA",
+    "demoMode": "Mode Démo",
+    "demoDescription": "Ceci est une version démo. Vous pouvez utiliser n'importe quel e-mail et mot de passe pour explorer la plateforme.",
+    "fullName": "Nom Complet",
+    "emailAddress": "Adresse E-mail",
+    "password": "Mot de Passe",
+    "enterFullName": "Entrez votre nom complet",
+    "enterEmail": "Entrez votre e-mail",
+    "enterPassword": "Entrez votre mot de passe",
+    "signIn": "Se Connecter",
+    "createAccount": "Créer un Compte",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "hasAccount": "Vous avez déjà un compte ?",
+    "signUp": "S'inscrire",
+    "demoCredentials": "Identifiants démo : Toute combinaison e-mail/mot de passe fonctionnera"
+  },
+  "errors": {
+    "pageNotFound": "Page Non Trouvée",
+    "pageNotFoundMessage": "Oups ! Il semble que cette page soit devenue dormante. Retournons dans une zone florissante de notre jardin.",
+    "returnHome": "Retour à l'Accueil",
+    "explorePlants": "Explorer les Plantes",
+    "somethingWentWrong": "Oups ! Quelque chose s'est mal passé",
+    "errorDescription": "Nous avons rencontré une erreur inattendue. Ne vous inquiétez pas, notre IA apprend de cela pour prévenir les problèmes futurs.",
+    "tryAgain": "Réessayer",
+    "goHome": "Aller à l'Accueil"
+  },
+  "language": {
+    "selectLanguage": "Sélectionner la Langue",
+    "english": "English",
+    "spanish": "Español",
+    "french": "Français",
+    "german": "Deutsch",
+    "chinese": "中文",
+    "japanese": "日本語"
+  }
+}

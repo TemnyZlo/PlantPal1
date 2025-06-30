@@ -1,0 +1,432 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information"
+  },
+  "navigation": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "plants": "Plants",
+    "aiAssistant": "AI Assistant",
+    "community": "Community",
+    "analytics": "Analytics",
+    "settings": "Settings",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out"
+  },
+  "home": {
+    "title": "AI-Powered Plant Intelligence",
+    "subtitle": "Revolutionary plant care platform combining computer vision, predictive analytics, and machine learning to create the ultimate gardening experience.",
+    "experienceAI": "Experience AI Magic",
+    "tryScanner": "Try Plant Scanner",
+    "welcomeBack": "Welcome back, {{name}}!",
+    "totalPlants": "AI-Monitored Plants",
+    "favorites": "Favorites",
+    "features": {
+      "aiIntelligence": {
+        "title": "AI Plant Intelligence",
+        "description": "Advanced machine learning algorithms analyze your plants and provide personalized care recommendations"
+      },
+      "computerVision": {
+        "title": "Computer Vision Analysis",
+        "description": "Instantly identify plants and diagnose health issues using cutting-edge image recognition technology"
+      },
+      "predictiveCare": {
+        "title": "Predictive Care System",
+        "description": "Smart algorithms predict your plants' needs before problems arise, ensuring optimal health"
+      },
+      "automatedMonitoring": {
+        "title": "Automated Monitoring",
+        "description": "Real-time health monitoring with instant alerts and automated care recommendations"
+      }
+    },
+    "stats": {
+      "aiModels": "AI Models Trained",
+      "plantsAnalyzed": "Plants Analyzed",
+      "successRate": "Success Rate",
+      "happyGardeners": "Happy Gardeners"
+    },
+    "capabilities": {
+      "title": "Intelligent Plant Care",
+      "subtitle": "Experience the future of gardening with our advanced AI systems that understand, predict, and optimize every aspect of plant care.",
+      "plantDiagnosis": {
+        "title": "Plant Health Diagnosis",
+        "description": "Upload a photo and get instant AI-powered health analysis with treatment recommendations",
+        "demo": "Try Camera"
+      },
+      "predictiveAlerts": {
+        "title": "Predictive Care Alerts",
+        "description": "AI predicts when your plants need water, fertilizer, or attention before problems occur",
+        "demo": "View Predictions"
+      },
+      "gardenPlanning": {
+        "title": "Smart Garden Planning",
+        "description": "AI designs optimal garden layouts based on your space, climate, and preferences",
+        "demo": "Plan Garden"
+      }
+    },
+    "cta": {
+      "title": "Ready for the Future of Gardening?",
+      "subtitle": "Join thousands of gardeners who are already experiencing the power of AI-driven plant care.",
+      "startGarden": "Start Your AI Garden",
+      "joinCommunity": "Join Community"
+    }
+  },
+  "dashboard": {
+    "title": "AI Dashboard",
+    "welcome": "Welcome back, {{name}}! Your AI assistant has been monitoring your garden.",
+    "aiActive": "AI Active",
+    "signInRequired": "Sign in to view your dashboard",
+    "signInSubtitle": "Track your AI-powered plant care journey",
+    "stats": {
+      "totalPlants": "Total Plants",
+      "healthyPlants": "Healthy Plants",
+      "needAttention": "Need Attention",
+      "favorites": "Favorites",
+      "healthRate": "health rate",
+      "aiMonitoring": "AI monitoring",
+      "curatedCollection": "Curated collection",
+      "thisWeek": "this week"
+    },
+    "aiInsights": {
+      "title": "AI Insights",
+      "realTime": "Real-time",
+      "viewAll": "View All AI Insights"
+    },
+    "careSchedule": {
+      "title": "AI Care Schedule",
+      "autoOptimized": "Auto-optimized",
+      "viewFull": "View Full Schedule"
+    },
+    "growthAnalytics": {
+      "title": "AI Growth Analytics",
+      "growthRate": "Growth Rate",
+      "loading": "Loading AI-powered growth analytics..."
+    }
+  },
+  "plants": {
+    "title": "Plant Database",
+    "subtitle": "Explore our AI-curated collection of plants",
+    "searchPlaceholder": "Search plants by name, features, or care needs...",
+    "filters": "Filters",
+    "advancedFilters": "Advanced Filters",
+    "careLevel": "Care Level",
+    "waterNeeds": "Water Needs",
+    "lightNeeds": "Light Needs",
+    "nativePlantsOnly": "Native Plants Only",
+    "reset": "Reset",
+    "applyFilters": "Apply Filters",
+    "allLevels": "All Levels",
+    "allWaterNeeds": "All Water Needs",
+    "allLightNeeds": "All Light Needs",
+    "easy": "Easy",
+    "intermediate": "Intermediate",
+    "difficult": "Difficult",
+    "low": "Low",
+    "moderate": "Moderate",
+    "high": "High",
+    "lowLight": "Low Light",
+    "indirectLight": "Indirect Light",
+    "brightLight": "Bright Light",
+    "fullSun": "Full Sun",
+    "native": "Native",
+    "aiScore": "AI Score",
+    "aiRecommendation": "AI Recommendation",
+    "details": "Details",
+    "addToGarden": "Add to Garden",
+    "noResults": "No plants found",
+    "noResultsMessage": "No plants match your search for \"{{query}}\". Try different keywords or adjust your filters.",
+    "startExploring": "Start exploring plants",
+    "startExploringMessage": "Use the search bar or filters to discover plants that match your needs.",
+    "clearSearch": "Clear Search",
+    "loadingPlants": "Loading plants..."
+  },
+  "plantDetails": {
+    "backToPlants": "Back to Plants",
+    "addToGarden": "Add to My Garden",
+    "aiCareGuide": "AI Care Guide",
+    "growthPrediction": "Growth Prediction",
+    "troubleshooting": "Troubleshooting",
+    "about": "About",
+    "aiSchedule": {
+      "title": "AI Care Schedule",
+      "description": "Our AI has analyzed this plant species and created a personalized care schedule optimized for your environment and experience level.",
+      "watering": "Watering",
+      "fertilizing": "Fertilizing",
+      "repotting": "Repotting",
+      "frequency": "Frequency",
+      "next": "Next",
+      "addToCalendar": "Add to My Care Calendar"
+    },
+    "growthForecast": {
+      "title": "AI Growth Prediction",
+      "description": "Our predictive AI model forecasts how your plant will develop over time based on species data, your care patterns, and environmental conditions.",
+      "oneMonth": "1 Month Forecast",
+      "sixMonths": "6 Month Forecast",
+      "oneYear": "1 Year Forecast",
+      "aiInsight": "AI Insight"
+    },
+    "troubleshootingGuide": {
+      "title": "AI Troubleshooting",
+      "description": "Our AI has identified common issues for this plant species and provided solutions based on scientific research and expert knowledge.",
+      "possibleCauses": "Possible Causes",
+      "solutions": "Solutions",
+      "scanForIssues": "Scan My Plant for Issues"
+    },
+    "plantInfo": {
+      "scientificName": "Scientific Name",
+      "growthRate": "Growth Rate",
+      "soilType": "Soil Type",
+      "humidity": "Humidity",
+      "propagation": "Propagation",
+      "toxicity": "Toxicity",
+      "native": "Native",
+      "careLevel": "Care Level"
+    }
+  },
+  "aiAssistant": {
+    "title": "AI Plant Intelligence",
+    "subtitle": "Advanced machine learning and computer vision to solve any plant problem",
+    "whatCanIHelp": "What can I help you with?",
+    "suggestions": {
+      "identify": "Identify this plant for me",
+      "diagnose": "What's wrong with my plant?",
+      "schedule": "Create a care schedule",
+      "predict": "Predict my plant's growth"
+    },
+    "aiName": "PlantPal AI",
+    "aiDescription": "Advanced plant intelligence system",
+    "active": "Active",
+    "aiThinking": "AI thinking...",
+    "uploadImage": "Upload plant image for analysis",
+    "voiceInput": "Voice input",
+    "askAnything": "Ask anything about your plants...",
+    "features": {
+      "computerVision": {
+        "title": "Computer Vision",
+        "description": "Upload photos for instant plant identification and health analysis"
+      },
+      "predictiveIntelligence": {
+        "title": "Predictive Intelligence",
+        "description": "AI predicts plant needs before problems occur"
+      },
+      "smartAutomation": {
+        "title": "Smart Automation",
+        "description": "Automated care schedules that adapt to your plants' changing needs"
+      }
+    }
+  },
+  "community": {
+    "title": "AI Community",
+    "subtitle": "Connect with plant enthusiasts and share AI-powered insights",
+    "shareExperience": "Share Your Experience",
+    "trendingTopics": "Trending Topics",
+    "topContributors": "Top Contributors",
+    "aiCommunityInsights": "AI Community Insights",
+    "communityImpact": "Community Impact",
+    "impactSubtitle": "Together, we're growing a more sustainable future",
+    "stats": {
+      "activeGardeners": "Active Gardeners",
+      "waterSaved": "Gallons Water Saved",
+      "co2Sequestered": "Tons CO2 Sequestered",
+      "plantsGrown": "Plants Grown Successfully"
+    },
+    "createPost": {
+      "title": "Share Your Experience",
+      "titleLabel": "Title",
+      "titlePlaceholder": "What's your post about?",
+      "contentLabel": "Content",
+      "contentPlaceholder": "Share your experience, tips, or ask questions...",
+      "tagsLabel": "Tags (comma-separated)",
+      "tagsPlaceholder": "ai-care, monstera, success-story",
+      "aiAnalysis": "AI will analyze your post to provide insights and recommendations",
+      "publish": "Publish Post"
+    },
+    "youtube": {
+      "title": "Eco & Garden Videos",
+      "featuredContent": "Featured Educational Content",
+      "moreVideos": "More Videos",
+      "loadMore": "Load More Educational Content"
+    }
+  },
+  "analytics": {
+    "title": "AI Analytics",
+    "subtitle": "Advanced insights and predictions for your garden",
+    "signInRequired": "Sign in to view analytics",
+    "signInSubtitle": "Track your garden's performance with AI-powered insights",
+    "export": "Export",
+    "timeRanges": {
+      "week": "Last 7 Days",
+      "month": "Last 30 Days",
+      "quarter": "Last 90 Days",
+      "year": "Last 365 Days"
+    },
+    "metrics": {
+      "plantHealth": "Plant Health Score",
+      "growthRate": "Growth Rate",
+      "careEfficiency": "Care Efficiency",
+      "resourceUsage": "Resource Usage"
+    },
+    "growthAnalytics": {
+      "title": "Growth Analytics",
+      "actualGrowth": "Actual Growth",
+      "aiPrediction": "AI Prediction",
+      "aiInsight": "AI Growth Insight"
+    },
+    "environmentalFactors": {
+      "title": "Environmental Factors",
+      "lightLevels": "Light Levels",
+      "humidity": "Humidity",
+      "temperature": "Temperature",
+      "optimal": "Optimal",
+      "good": "Good",
+      "perfect": "Perfect"
+    },
+    "aiInsights": {
+      "title": "AI Insights",
+      "optimalWatering": "Optimal Watering Pattern",
+      "growthAcceleration": "Growth Acceleration",
+      "seasonalAdjustment": "Seasonal Adjustment"
+    },
+    "predictiveMaintenance": {
+      "title": "Predictive Maintenance",
+      "plant": "Plant",
+      "nextAction": "Next Action",
+      "dueDate": "Due Date",
+      "priority": "Priority",
+      "aiConfidence": "AI Confidence",
+      "viewFullSchedule": "View Full Maintenance Schedule"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Customize your PlantPal experience",
+    "signInRequired": "Sign in to access settings",
+    "signInSubtitle": "Customize your PlantPal experience",
+    "menu": "Settings Menu",
+    "account": "Account",
+    "notifications": "Notifications",
+    "privacy": "Privacy",
+    "aiSettings": "AI Settings",
+    "appearance": "Appearance",
+    "accountSettings": {
+      "title": "Account Settings",
+      "fullName": "Full Name",
+      "emailAddress": "Email Address",
+      "bio": "Bio",
+      "bioPlaceholder": "Tell us about yourself and your gardening experience...",
+      "saveChanges": "Save Changes"
+    },
+    "notificationPreferences": {
+      "title": "Notification Preferences",
+      "careReminders": "Care Reminders",
+      "careRemindersDesc": "Receive notifications for watering, fertilizing, and other care tasks",
+      "aiInsights": "AI Insights",
+      "aiInsightsDesc": "Get notified about AI-generated insights and predictions",
+      "communityActivity": "Community Activity",
+      "communityActivityDesc": "Notifications about comments, likes, and mentions",
+      "marketingEmails": "Marketing Emails",
+      "marketingEmailsDesc": "Receive updates about new features and promotions"
+    },
+    "privacySettings": {
+      "title": "Privacy Settings",
+      "shareGardenData": "Share Garden Data",
+      "shareGardenDataDesc": "Allow anonymous sharing of your garden data to improve AI recommendations",
+      "publicProfile": "Public Profile",
+      "publicProfileDesc": "Make your profile and garden visible to other users",
+      "allowDataAnalysis": "Allow Data Analysis",
+      "allowDataAnalysisDesc": "Let our AI analyze your garden data to provide personalized insights",
+      "locationSharing": "Location Sharing",
+      "locationSharingDesc": "Share your location for climate-specific recommendations"
+    },
+    "aiConfiguration": {
+      "title": "AI Configuration",
+      "aiFeatures": "AI Features",
+      "aiDescription": "Configure how our advanced AI interacts with your garden data to provide personalized insights and recommendations.",
+      "enablePredictions": "Enable AI Predictions",
+      "enablePredictionsDesc": "Allow AI to predict plant needs and growth patterns",
+      "dataCollection": "Data Collection",
+      "dataCollectionDesc": "Collect plant data to improve AI model accuracy",
+      "automatedCare": "Automated Care",
+      "automatedCareDesc": "Allow AI to automatically adjust care schedules based on plant needs",
+      "advancedAnalytics": "Advanced Analytics",
+      "advancedAnalyticsDesc": "Enable deep learning analysis of your garden performance",
+      "personalizedRecommendations": "Personalized Recommendations",
+      "personalizedRecommendationsDesc": "Receive AI-tailored plant and care recommendations",
+      "resetAIModel": "Reset AI Model"
+    },
+    "appearanceSettings": {
+      "title": "Appearance Settings",
+      "theme": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "fontSize": "Font Size",
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large",
+      "compactMode": "Compact Mode",
+      "compactModeDesc": "Display more content with reduced spacing",
+      "highContrast": "High Contrast",
+      "highContrastDesc": "Increase contrast for better readability",
+      "reducedMotion": "Reduced Motion",
+      "reducedMotionDesc": "Minimize animations and transitions"
+    }
+  },
+  "auth": {
+    "welcomeBack": "Welcome Back",
+    "joinPlantPal": "Join PlantPal",
+    "signInSubtitle": "Sign in to your AI garden",
+    "signUpSubtitle": "Start your AI-powered plant journey",
+    "demoMode": "Demo Mode",
+    "demoDescription": "This is a demo version. You can use any email and password to explore the platform.",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "password": "Password",
+    "enterFullName": "Enter your full name",
+    "enterEmail": "Enter your email",
+    "enterPassword": "Enter your password",
+    "signIn": "Sign In",
+    "createAccount": "Create Account",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signUp": "Sign up",
+    "demoCredentials": "Demo credentials: Any email/password combination will work"
+  },
+  "errors": {
+    "pageNotFound": "Page Not Found",
+    "pageNotFoundMessage": "Oops! It seems like this page has gone dormant. Let's get you back to a thriving area of our garden.",
+    "returnHome": "Return Home",
+    "explorePlants": "Explore Plants",
+    "somethingWentWrong": "Oops! Something went wrong",
+    "errorDescription": "We encountered an unexpected error. Don't worry, our AI is learning from this to prevent future issues.",
+    "tryAgain": "Try Again",
+    "goHome": "Go Home"
+  },
+  "language": {
+    "selectLanguage": "Select Language",
+    "english": "English",
+    "spanish": "Español",
+    "french": "Français",
+    "german": "Deutsch",
+    "chinese": "中文",
+    "japanese": "日本語"
+  }
+}
